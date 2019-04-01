@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android app 2</string>
+    <string name="app">My application</string>
+    <string name="inputName">Input your name</string>
+    <string name="buttonText">Enter</string>
+    <string name="textView">Your name is</string>
+    <string name="author">raimadru</string>
+</resources>

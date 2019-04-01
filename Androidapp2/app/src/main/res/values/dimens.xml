@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextSize">20sp</dimen>
+    <dimen name="marginTop">22sp</dimen>
+    <dimen name="marginEditText">120dp</dimen>
+    <dimen name="editEditTextSize">14dp</dimen>
+    <dimen name="commentsSize">10dp</dimen>
+    <dimen name="marginLeft">66dp</dimen>
+    <dimen name="marginRight">66dp</dimen>
+    <dimen name="buttonMarginTop">28dp</dimen>
+    <dimen name="marginButtonLeft">120dp</dimen>
+    <dimen name="marginButtonRight">120dp</dimen>
+    <dimen name="marginNameField">66dp</dimen>
+</resources>

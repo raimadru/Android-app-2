@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app"
+        android:textSize="@dimen/editTextSize"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Label"
+        android:textSize="@dimen/commentsSize"
+        android:textColor="@color/comments"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="90dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputName"
+        android:textSize="@dimen/editEditTextSize"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help text (optional)"
+        android:textSize="@dimen/commentsSize"
+        android:textColor="@color/comments"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonText"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/buttonMarginTop"
+        android:layout_marginLeft="@dimen/marginButtonLeft"
+        android:layout_marginRight="@dimen/marginButtonRight"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="@string/textView"
+        android:textSize="@dimen/editTextSize"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/colorText"
+        android:layout_marginLeft="@dimen/marginNameField"
+        android:layout_marginRight="@dimen/marginNameField"
+        android:height="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author"
+        android:gravity="center"
+        android:layout_marginTop="190dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
