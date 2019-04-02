@@ -25,8 +25,11 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = editText.getText().toString();
-                textView.setText("Your name is " + name);
+                if (textView.equals(null) || textView.equals(" ")){
+                    textView.setText("No name");
+                } else {
+                    textView.setText("Your name is " + name);
+                }
             }
         });
     }
