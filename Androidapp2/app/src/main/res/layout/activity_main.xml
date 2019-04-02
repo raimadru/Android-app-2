@@ -33,6 +33,7 @@
         android:hint="@string/inputName"
         android:textSize="@dimen/editEditTextSize"
         android:gravity="center"
+        android:paddingBottom="@dimen/paddingInput"
         android:textColor="@color/black"
         android:layout_marginLeft="@dimen/marginLeft"
         android:layout_marginRight="@dimen/marginRight"/>
