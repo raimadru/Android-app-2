@@ -4,6 +4,7 @@
     <dimen name="marginTop">22sp</dimen>
     <dimen name="marginEditText">120dp</dimen>
     <dimen name="editEditTextSize">14dp</dimen>
+    <dimen name="paddingInput">20dp</dimen>
     <dimen name="commentsSize">10dp</dimen>
     <dimen name="marginLeft">66dp</dimen>
     <dimen name="marginRight">66dp</dimen>
