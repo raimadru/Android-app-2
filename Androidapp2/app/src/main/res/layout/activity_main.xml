@@ -56,10 +56,6 @@
         android:layout_marginLeft="@dimen/marginButtonLeft"
         android:layout_marginRight="@dimen/marginButtonRight"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
@@ -73,8 +69,6 @@
             android:background="@color/colorText"
             android:gravity="center"
             android:textColor="@color/black" />
-
-        </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
